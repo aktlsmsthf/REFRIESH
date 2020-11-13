@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">REFRIESH</string>
+    <string name="title_activity_ingredient_setting">IngredientSetting</string>
+    <string name="title_activity_ingset2">ingset2</string>
+</resources>

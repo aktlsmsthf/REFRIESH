@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wjjin.refriesh">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.hardware.camera.autofocus" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RefrigPhoto" />
+        <activity android:name=".ErrorFeedback" />
+        <activity android:name=".ErrorFeedback2" />
+        <activity android:name=".CookwareSetting" />
+        <activity android:name=".Search" />
+        <activity android:name=".IngredientSearch" />
+        <activity android:name=".IngredientSearch2" />
+        <activity android:name=".Setting" />
+        <activity android:name=".RecipeDetail" />
+        <activity android:name=".AdditionalIngredient" />
+        <activity android:name=".RecipeByIngredient" />
+        <activity
+            android:name=".IngredientSetting"
+            android:label="@string/title_activity_ingredient_setting"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ingset2"
+            android:label="@string/title_activity_ingset2"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>
